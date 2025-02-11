@@ -1,0 +1,9 @@
+<app-menu (buscarProd)="onSearch($event)"></app-menu>
+<div class="container my-4">
+  <div class="row g-4">
+    <div class="col-12 col-sm-6 col-md-3" *ngFor="let producto of filteredProducts">
+      <app-productos-card  [productos]="producto"
+        (productoSeleccionado)="detalle($event)"></app-productos-card>
+    </div>
+  </div>
+</div>

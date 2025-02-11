@@ -1,0 +1,16 @@
+.card {
+  width: 100%;  /* La tarjeta ocupa todo el espacio disponible dentro de la columna */
+  height: 100%; /* Hace que las tarjetas sean de igual altura */
+}
+
+.card-img-top {
+  object-fit: cover; /* Ajusta la imagen para que cubra el espacio sin deformarse */
+  height: 180px; /* Ajusta la altura de la imagen */
+}
+
+.card-body {
+  padding: 1.25rem;  /* Establece un padding adecuado */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
